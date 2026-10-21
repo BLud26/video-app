@@ -1,0 +1,30 @@
+body {
+    background-color: cornflowerblue;
+}
+
+a,
+a:visited {
+    color: navy;           /* dark navy: stands out clearly on cornflowerblue */
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: #ffffff;
+    background-color: #0b1f4d;
+    text-decoration: none;
+}
+.navigation {
+    margin: 40px;
+    padding-right: 30px;
+}
+.navigation a,
+.navigation a:visited {
+    color: navy;
+}
+.navigation a:hover {
+    color: #ffffff;
+    background-color: #0b1f4d;
+    text-decoration: none;
+}

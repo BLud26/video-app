@@ -25,6 +25,8 @@ SECRET_KEY = 'django-insecure-4l!5#)8448flthl#oix@jg5i-d!u0c@d#am+yk+qt1e1s^tij^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+SECURE_REFERRER_POLICY = 'strict-origin-when-cross-origin'
+
 ALLOWED_HOSTS = []
 
 
